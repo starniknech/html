@@ -1,0 +1,22 @@
+.concepts {
+  padding: 40px 0;
+}
+.concepts__title {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.concepts__block {
+}
+.concepts__paragraph {
+  line-height: 150%;
+  word-spacing: 2px;
+}
+.concepts__paragraph_main {
+  font-size: 25px;
+  color: rgb(255, 142, 255);
+}
+.concepts__paragraph:not(:last-child) {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,50 @@
+.history {
+  padding: 40px 0;
+}
+.history__title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.history__subtitle{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.history__block{
+  display: flex;
+  column-gap: 30px;
+}
+.history__image{
+
+}
+.history__image img{
+  max-width: 100%;
+}
+.history__paragraph{
+  line-height: 150%;
+}
+.history__paragraph:not(:last-child){
+  margin-bottom: 20px;
+}
+.history__paragraph a{
+  text-decoration: underline;
+  color: #ddd;
+}
+.history__paragraph a:hover{
+  text-decoration: none;
+}
+.history__paragraph_bold{
+  font-weight: 700;
+}
+.history__paragraph_italic{
+  font-style: italic;
+}
+
+.divider {
+  width: 100%;
+  background-color: #fff;
+  height: 2px;
+}
